@@ -17,3 +17,5 @@ I use the "single" reading every run because capturing the next message yields t
 
 I tried running this on a RaspberryPi I have from other projects. But that board isn't supplying enough power to the RTL SDR over USB to be stable. Current platform is an old laptop.
 
+If you're concerned about my usage, which is high, we have 48 homes and some distribution pipes on this single meter.
+
