@@ -6,7 +6,7 @@ Your utility's water meter may be broadcasting your current usage all the time. 
 
 Uses [RTL AMR](https://github.com/bemasher/rtlamr) to collect the metrics and publish to AWS Timestream database. Any cloud database will do, since it's easy to use a free cloud reporting instance like Grafana.
 
-Important considerations for the script parameters
+#### Important considerations for the script parameters
 
 The electronics in my meter take a reading every 15 minutes and broadcasts that reading every ~1 minute. I think it's just a fire-and-forget broadcast without any carrier detection. It's just a small packet.
 I don't get every message so I set RTL AMR to listen for up to 10 minutes. Cron runs the script every 15 minutes.
